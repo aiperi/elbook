@@ -1,0 +1,46 @@
+
+.footer{
+    width: 100%;
+    min-height: 102px;
+    background: linear-gradient(90deg, #BD2B26 0%, #E5B82C 51.56%, #1C3272 100%);
+    display: flex;
+    align-items: center;
+}
+
+.footer-container{
+    width: 1200px;
+    padding: 0 24px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .footer-container{
+flex-direction: column;
+        padding: 15px 5px;
+    }
+}
+
+
+.logoWrapper{
+    height: 43px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 43px;
+    margin-right: 8px;
+}
+
+.contacts{
+    color: white;
+    margin: 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+}

@@ -1,0 +1,39 @@
+.main-container {
+    max-width: 1200px;
+    padding: 0 24px;
+    margin: 80px auto 10px;
+}
+
+.main-block-links {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    cursor: pointer;
+}
+
+.main-block-links:hover {
+    color: #22366b;
+}
+
+
+.main-block-links:visited {
+    color: #3563E9;
+}
+
+.main-block-links-small {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.78px;
+    cursor: pointer;
+}
+
+.main-block-links-small:hover {
+    color:  #22366b;
+}
+.main-block-links-small:visited {
+    color: #3563E9;
+}

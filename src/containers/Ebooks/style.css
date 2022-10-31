@@ -1,0 +1,57 @@
+
+.paginate {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    z-index: 100;
+}
+
+.pagination {
+    margin-bottom: 62px;
+    display: flex;
+    list-style: none;
+    outline: none;
+}
+.pagination > .active > a {
+    background-color: #F2F6F9;
+    color: black;
+}
+
+.pagination > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 38px;
+    margin: 4px;
+    border-radius: 4px;
+    background-color: #F2F6F9;
+}
+
+.pagination > li > a {
+    margin: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    border-color: blue;
+    outline: none ;
+}
+
+.pagination > li > a, .pagination > li > span{
+    color: blue;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+}
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+    color: gray;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+    color: gray;
+}
